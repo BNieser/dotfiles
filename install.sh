@@ -83,6 +83,9 @@ clone_or_update "https://github.com/MichaelAquilina/zsh-you-should-use" \
 clone_or_update "https://github.com/fdellwing/zsh-bat" \
     "$PLUGIN_DIR/zsh-bat"
 
+clone_or_update "https://github.com/jeffreytse/zsh-vi-mode" \
+    "$PLUGIN_DIR/zsh-vi-mode"
+
 
 echo "=== Install autojump ==="
 install_autojump
