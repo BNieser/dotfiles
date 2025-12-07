@@ -1,0 +1,23 @@
+# -------------------------
+# Shell
+# -------------------------
+command = /usr/bin/zsh --login
+
+# -------------------------
+# Cursor
+# -------------------------
+cursor-style = bar
+
+# -------------------------
+# Fonts (optional)
+# -------------------------
+font-family = JetBrainsMono Nerd Font
+font-size = 13
+
+# -------------------------
+# Optik (optional)
+# -------------------------
+background-opacity = 0.9
+
+
+theme = TokyoNight Night
