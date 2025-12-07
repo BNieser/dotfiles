@@ -1,5 +1,5 @@
 
-export CARAPACE_BRIDGES='zsh,fish,bash,inshellisense' # optional
-zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
-source <(carapace _carapace)
-
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="xiong-chiamiov"
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting you-should-use zsh-bat pyenv pip autojump jump tmux history autoenv)
+source $ZSH/oh-my-zsh.sh
