@@ -69,6 +69,24 @@ return {
           }
         }
       })
+local lspconfig = require('lspconfig')
+print("WorkspaceFolder would be:", root)
+
+vim.lsp.config('esbonio', {
+  command = {'esbonio'},
+  filetypes = { 'rst' }, -- or 'markdown' if you use MyST
+  root_markers = { '.git' },
+ settings = {
+    esbonio = {
+      sphinx = {
+        buildCommand = {'sphinx-build', '-M', 'dirhtml', 'docs', '${defaultBuildDir}'},
+	pythonCommand = { "./.venv/bin/python" },
+      }
+    },
+  },
+capabilities = capabilities
+})
+vim.lsp.enable('esbonio')
       vim.lsp.enable('pyright')
 
       -- Ruff (neuer Name, ersetzt ruff_lsp)
