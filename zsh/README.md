@@ -46,3 +46,18 @@ can be used by typing:
 | `hl`  | `history \| less`    | Pipe history output to less to search and navigate it easily     |
 | `hs`  | `history \| grep`    | Use grep to search your command history                          |
 | `hsi` | `history \| grep -i` | Use grep to do a case-insensitive search of your command history |
+
+### Aitoswitch virtualenv 
+
+- will be used to automatically enable / disable python virtual enviroments.
+- cann be also be used to create the venv for a project with a pyproject.toml or requirements.txt .
+
+For the commands look [here](https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv?tab=readme-ov-file#commands).
+
+
+| Command              | Description                                                                                     |
+|----------------------|-------------------------------------------------------------------------------------------------|
+| `mkvenv`             | Setup a new python project                                                                      |
+| `rmvenv`             | Removes the virtual enviroment.                                                                 |
+| `disable_autoswitch_virtualenv` | Temprorarily disable switching when moving between directories |
+| `enable_autoswitch_virtualenv`  | Enable back the automatic switching
