@@ -86,7 +86,8 @@ clone_or_update "https://github.com/fdellwing/zsh-bat" \
 clone_or_update "https://github.com/jeffreytse/zsh-vi-mode" \
     "$PLUGIN_DIR/zsh-vi-mode"
 
-
+clone_or_update "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" \
+    "$PLUGIN_DIR/autoswitch_virtualenv"
 echo "=== Install autojump ==="
 install_autojump
 
