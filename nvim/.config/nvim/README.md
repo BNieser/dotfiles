@@ -1,5 +1,21 @@
 # My Neovim Config
 
+## Instatlations 
+
+For installing the markdown plugin type 
+
+```bash
+:Lazy build markdown-preview.nvim
+```
+
+
+
+
+
+
+## Requirments 
+
+
 ## Recommended Tools to use
 ### [Carapace](https://carapace.sh/) : Better autocompletion in terminal
 #### Install 
