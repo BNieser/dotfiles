@@ -12,6 +12,7 @@ return {
         "ruff",         -- Python Linter/Formatter
         "clangd",       -- C/C++ LSP
         "marksman",     -- Markdown LSP (für Sphinx Docs)
+	"neocmake",	-- CMake LSP 
       },
       automatic_installation = true,
     },
