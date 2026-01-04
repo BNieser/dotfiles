@@ -17,7 +17,8 @@ font-size = 13
 # -------------------------
 # Optik (optional)
 # -------------------------
-background-opacity = 1 
+background-opacity = 1
 
 
 theme = TokyoNight Night
+term = xterm-256color
