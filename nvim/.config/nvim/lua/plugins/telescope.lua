@@ -26,6 +26,9 @@ return {
     { "<leader>fs", "<cmd>Telescope lsp_document_symbols<cr>", desc = "Document Symbols" },
     { "<leader>fw", "<cmd>Telescope lsp_workspace_symbols<cr>", desc = "Workspace Symbols" },
 
+
+    -- Search for latest files
+    { "<leader>fo",  "<cmd>Telescope oldfiles<cr>", desc = "Browser oldfiles" },
     -- Plugin-Dateien durchsuchen (Lazy root)
     {
       "<leader>fp",
@@ -38,4 +41,3 @@ return {
     },
   },
 }
-
