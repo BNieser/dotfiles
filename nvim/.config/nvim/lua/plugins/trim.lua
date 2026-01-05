@@ -1,3 +1,1 @@
-return { "cappyzawa/trim.nvim",
-  opts = {}
-}
+return { "cappyzawa/trim.nvim", opts = {} }
