@@ -1,9 +1,9 @@
 
 ## Using of ZINIT
 
-### Installation 
+### Installation
 
-clone the repo in the zinit folder 
+clone the repo in the zinit folder
 ```bash
 git clone https://github.com/zdharma-continuum/zinit.git ~/dotfiles/zsh/.zsh/zinit
 ```
@@ -13,7 +13,7 @@ git clone https://github.com/zdharma-continuum/zinit.git ~/dotfiles/zsh/.zsh/zin
 
 ## Plugins
 
-### Jump plugins 
+### Jump plugins
 
 - easily jump around the filesystem
 
@@ -24,9 +24,9 @@ git clone https://github.com/zdharma-continuum/zinit.git ~/dotfiles/zsh/.zsh/zin
 | `jump <mark-name>`   | Jump to the given mark                                                                          |
 | `mark [mark-name]`   | Create a mark with the given name or with the name of the current directory if none is provided |
 | `unmark <mark-name>` | Remove the given mark                                                                           |
-| `marks`              | List the existing marks and the directories they point to  
+| `marks`              | List the existing marks and the directories they point to
 
-### Web Search 
+### Web Search
 
 - Allow to open the browser out of the terminal and search for something
 
@@ -35,7 +35,7 @@ can be used by typing:
 `google <stuff-to-search>`
 
 
-### CMD line history 
+### CMD line history
 
 - history can be queried by using
 
@@ -47,7 +47,7 @@ can be used by typing:
 | `hs`  | `history \| grep`    | Use grep to search your command history                          |
 | `hsi` | `history \| grep -i` | Use grep to do a case-insensitive search of your command history |
 
-### Aitoswitch virtualenv 
+### Aitoswitch virtualenv
 
 - will be used to automatically enable / disable python virtual enviroments.
 - cann be also be used to create the venv for a project with a pyproject.toml or requirements.txt .

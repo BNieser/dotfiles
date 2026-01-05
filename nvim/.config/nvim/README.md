@@ -1,8 +1,8 @@
 # My Neovim Config
 
-## Instatlations 
+## Instatlations
 
-For installing the markdown plugin type 
+For installing the markdown plugin type
 
 ```bash
 :Lazy build markdown-preview.nvim
@@ -13,18 +13,18 @@ For installing the markdown plugin type
 
 
 
-## Requirments 
+## Requirments
 
 
 ## Recommended Tools to use
 ### [Carapace](https://carapace.sh/) : Better autocompletion in terminal
-#### Install 
+#### Install
 - aftet installation it needs to be added to the bash or zsh config
 
 ### lazygit : A TUI for managing git repos
 
 
-### Ghostty 
+### Ghostty
 
 #### Config
 
@@ -35,7 +35,7 @@ or defaults to $HOME/.config/ghostty/config
 Reloading Config: <ctrl-shift-,>
 
 
-### Clipboard 
-für clipboard sachen muss eins installiert sein 
+### Clipboard
+für clipboard sachen muss eins installiert sein
 
 sudo apt install wl-clipboard
