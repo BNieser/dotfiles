@@ -13,6 +13,7 @@ return {
 				"clangd", -- C/C++ LSP
 				"marksman", -- Markdown LSP (für Sphinx Docs)
 				"neocmake", -- CMake LSP
+				"texlab",
 			},
 			automatic_installation = true,
 			automatic_enable = true,
