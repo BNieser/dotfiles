@@ -1,6 +1,8 @@
 -- Here is the main setup for the lsp
 vim.lsp.enable({
 	"lua_ls",
+	"esbonio",
+	"texlab",
 }) -- Here comes in the lsp name after which the file in /lsp are named
 
 vim.diagnostic.config({ -- here we configure how neovim shall handle the diagnostics
