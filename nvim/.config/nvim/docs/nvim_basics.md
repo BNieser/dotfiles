@@ -128,3 +128,38 @@ to save all file use
 ```Vim
 :wa
 ```
+
+
+## Window spltiting
+
+### Spliting a window
+
+Commands to open multiple windows within neoviem they allow to show another buffer on the screen
+- `:vsplit` : open a window spiit to the right
+- `:split` : creates a horizontal split
+
+
+### Moving between window
+
+```vim
+	CTRL-W h	move to the window on the left
+	CTRL-W j	move to the window below
+	CTRL-W k	move to the window above
+	CTRL-W l	move to the window on the right
+	CTRL-W t	move to the TOP window
+	CTRL-W b	move to the BOTTOM window
+```
+
+
+### Positioning of a window
+
+before executing the split command the following modifiers can be added
+
+```vim
+    :leftabove {cmd}	left or above the current window
+	:aboveleft {cmd}	idem
+	:rightbelow {cmd}	right or below the current window
+	:belowright {cmd}	idem
+	:topleft {cmd}		at the top or left of the Vim window
+	:botright {cmd}		at the bottom or right of the Vim window
+```
