@@ -7,7 +7,6 @@ ZSH_DIR="$DOTFILES/zsh"
 OMZ_DIR="$ZSH_DIR/.oh-my-zsh"
 PLUGIN_DIR="$OMZ_DIR/custom/plugins"
 
-mkdir -p "$PLUGIN_DIR"
 
 clone_or_update() {
     local repo_url="$1"
@@ -16,8 +15,6 @@ clone_or_update() {
     if [ -d "$target_dir/.git" ]; then
         echo "Updating $(basename "$target_dir") ..."
         git -C "$target_dir" pull --ff-only
-    elif [ -d "$target_dir" ]; then
-        echo "Directory $target_dir exists (not a git repo). Not touching it."
     else
         echo "Cloning $(basename "$target_dir") ..."
         git clone "$repo_url" "$target_dir"
@@ -70,9 +67,11 @@ install_autojump() {
 echo "=== Install/Update Oh My Zsh ==="
 clone_or_update "https://github.com/ohmyzsh/ohmyzsh.git" "$OMZ_DIR"
 
+mkdir -p "$PLUGIN_DIR"
+
 echo "=== Install/Update Plugins ==="
 clone_or_update "https://github.com/zsh-users/zsh-autosuggestions" \
-    "$PLUGIN_DIR/zsh-autosuggestions"
+     "$PLUGIN_DIR/zsh-autosuggestions"
 
 clone_or_update "https://github.com/zsh-users/zsh-syntax-highlighting" \
     "$PLUGIN_DIR/zsh-syntax-highlighting"
