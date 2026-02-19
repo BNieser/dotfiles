@@ -26,6 +26,9 @@ return {
 			ensure_installed = {
 				"mypy", -- Python static type checker
 				"jq", -- JSON Formatter
+				"taplo", -- toml
+				"prettier", -- makrdown json and more
+				"stylua",
 			},
 		},
 	},
