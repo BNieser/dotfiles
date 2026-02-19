@@ -1,4 +1,4 @@
 return {
-	"pearofducks/ansible-vim",
-	ft = { "yaml.ansible" },
+    "pearofducks/ansible-vim",
+    ft = { "yaml.ansible" },
 }

@@ -32,7 +32,7 @@ using the motions without an operator the cursor will move corresponding
 ### Deletion
 - to open delete options type: d
 - delete a word: dw
-    cursor needs to be at the begining of the word
+cursor needs to be at the begining of the word
 - delete end of line: d$
 -
 ### Undo
@@ -65,7 +65,7 @@ let the things be gahged which are wanted , it deletes
 searching forward put /
 searching backwards put ?
 
- go back to where i came form CTRL o
+go back to where i came form CTRL o
 go forward CTRL ij
 
 you can also ignore things
@@ -87,9 +87,9 @@ o opens a new line below the cursor
 # Insert Mode
 - mode for editing text
 - enter insert with: i
-    allows insertion before the cursor
+allows insertion before the cursor
 - enter appedn with: a
-    allows inserion after the cursor
+allows inserion after the cursor
 - appent text after the line: A
 
 
@@ -114,11 +114,11 @@ in the explorer you can use the following keys
 
 ## Autocompletion
 - Scroll hint doc -4
-    <C-b>
+<C-b>
 - Scroll hint doc +4
-    <C-
+<C-
 - Show help text
-    <leader-h>
+<leader-h>
 
 
 ### Load config
@@ -167,17 +167,17 @@ ls -l ~/.tmux.conf
 
 
 - Create window
-    <leader-c>
+<leader-c>
 - close current window
-    <leader-&>
+<leader-&>
 - list windows
-    <leader-w>
+<leader-w>
 - previous window
-    <leader-p>
+<leader-p>
 - next window
-    <leader-n>
+<leader-n>
 - select window by number
-    <leader-window_number>
+<leader-window_number>
 
 
 
@@ -186,9 +186,9 @@ ls -l ~/.tmux.conf
 - lower than a windows there can be multiple withn a  window
 
 - split current pane vertical
-    <leader-%>
+<leader-%>
 - split current pane horizontal
-    <leader-">
+<leader-">
 ## JQ Json formatter
 to formatt json use
 :%!jq .
