@@ -11,7 +11,7 @@ cursor-style = bar
 # -------------------------
 # Fonts (optional)
 # -------------------------
-font-family = JetBrainsMono Nerd Font
+font-family = "MartianMono Nerd Font"
 font-size = 13
 
 # -------------------------
