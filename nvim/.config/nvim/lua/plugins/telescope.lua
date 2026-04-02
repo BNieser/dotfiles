@@ -1,6 +1,8 @@
+--return {}
 return {
     "nvim-telescope/telescope.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
+    branch = "master",
 
     -- Optionen (entspricht telescope.setup({}))
     opts = {

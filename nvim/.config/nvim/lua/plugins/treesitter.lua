@@ -1,32 +1,19 @@
 return {
     { -- Highlight, edit, and navigate code
         "nvim-treesitter/nvim-treesitter",
-        tag = "v0.10.0",
+        branch = "main",
         build = ":TSUpdate",
         -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
+    },
+    {
+        "MeanderingProgrammer/treesitter-modules.nvim",
+        dependencies = { "nvim-treesitter/nvim-treesitter" },
         opts = {
-            ensure_installed = {
-                "bash",
-                "c",
-                "diff",
-                "html",
-                "lua",
-                "luadoc",
-                "markdown",
-                "markdown_inline",
-                "query",
-                "vim",
-                "vimdoc",
-                "python",
-                "rst",
-            },
-            -- Autoinstall languages that are not installed
-            auto_install = true,
-            highlight = {
-                enable = true,
-                additional_vim_regex_highlighting = { "ruby" },
-            },
-            indent = { enable = true, disable = { "ruby" } },
+            ensure_installed = "python",
+            fold = { enable = false },
+            highlight = { enable = true },
+            indent = { enable = true },
+            incremental_selection = { enable = true },
         },
     },
 }
