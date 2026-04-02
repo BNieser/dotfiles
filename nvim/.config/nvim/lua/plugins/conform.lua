@@ -17,6 +17,7 @@ return {
                 json = { "prettier", stop_after_first = true },
                 markdown = { "prettier" },
                 toml = { "taplo" },
+                tex = { "latexindent" },
             },
 
             format_on_save = function()

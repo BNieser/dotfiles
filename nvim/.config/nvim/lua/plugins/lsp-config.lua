@@ -29,6 +29,7 @@ return {
                 "taplo", -- toml
                 "prettier", -- makrdown json and more
                 "stylua",
+                "latexindent",
             },
         },
     },
