@@ -1,7 +1,7 @@
 {
     "position" : "top",
     "modules-left": ["hyprland/workspaces"],
-    "modules-right": ["cpu","network", "clock","custom/power"],
+    "modules-right": ["cpu","network", "clock","upower","custom/power"],
     "hyprland/workspaces": {
         "format": "{icon}",
         "format-icons": {
@@ -49,7 +49,12 @@
         "tooltip": "Power Options",
         "on-click": "~/.local/bin/power-menu",
         "cursor": true
-    }
+    },
+    "upower": {
+     "icon-size": 20,
+     "hide-if-empty": true,
+     "tooltip": true,
+     "tooltip-spacing": 20},
 
 
 
