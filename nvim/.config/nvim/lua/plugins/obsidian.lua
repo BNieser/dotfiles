@@ -11,5 +11,17 @@ return {
                 path = "~/obsidian/test/",
             },
         },
+        templates = {
+            folder = "templates",
+            date_format = "%Y-%m-%d-%a",
+            time_format = "%H:%M",
+        },
+    },
+    keys = {
+        {
+            "<leader>tf",
+            "<cmd>Obsidian template flashcard<CR>",
+            desc = "Insert Flashcard Template",
+        },
     },
 }
