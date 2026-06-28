@@ -1,7 +1,7 @@
 {
     "position" : "top",
     "modules-left": ["hyprland/workspaces"],
-    "modules-right": ["cpu","network", "clock","upower","custom/power"],
+    "modules-right": ["cpu","network", "upower","clock"],
     "hyprland/workspaces": {
         "format": "{icon}",
         "format-icons": {
@@ -51,10 +51,13 @@
         "cursor": true
     },
     "upower": {
+     "show-icon": false,
      "icon-size": 20,
      "hide-if-empty": true,
      "tooltip": true,
      "tooltip-spacing": 20},
+     "format": "{percentage}{time}"
+    }
 
 
 
