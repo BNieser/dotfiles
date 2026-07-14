@@ -2,13 +2,29 @@ require("lua.constants")
 
 local secrets = require("lua.secrets")
 
-hl.workspace_rule({ workspace = "1", "monitor:desc:" .. main_monitor, default = true })
-hl.workspace_rule({ workspace = "2", "monitor:desc:" .. main_monitor })
+hl.workspace_rule({
+	workspace = "1",
+	monitor = "desc:" .. main_monitor,
+	default = true,
+})
 
-hl.workspace_rule({ workspace = "3", "monitor:desc:" .. main_monitor, default = true })
-hl.workspace_rule({ workspace = "4", "monitor:desc:" .. main_monitor })
+hl.workspace_rule({
+	workspace = "2",
+	monitor = "desc:" .. main_monitor,
+})
 
-hl.window_rule({ name = "discord", match = { class = "discord" }, workspace = 3 })
+hl.workspace_rule({
+	workspace = "3",
+	monitor = "desc:" .. secondary_monitor,
+	default = true,
+})
+
+hl.workspace_rule({
+	workspace = "4",
+	monitor = "desc:" .. secondary_monitor,
+})
+
+hl.window_rule({ workspace = "3", name = "discord", match = { class = "discord" } })
 
 GITHOST_URL = "https://git.bnhosting.de"
 TODO_URL = ""
