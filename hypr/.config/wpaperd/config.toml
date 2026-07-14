@@ -1,4 +1,4 @@
 [any]
 path = "~/wallpaper/"
 duration = "10m"
-mode = "center"
+mode = "fit"
