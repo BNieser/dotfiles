@@ -11,8 +11,8 @@ hl.bind(
 ) -- stop hyprland
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(file_manager))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(menu .. "-show window")) -- show open windows
-hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu .. "-show drun")) -- open selection of programms
+hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(menu .. " -show window")) -- show open windows
+hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu .. " -show drun")) -- open selection of programms
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo()) -- does something i dont use it
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 
