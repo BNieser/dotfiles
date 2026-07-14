@@ -21,13 +21,7 @@ return {
             -- Öffnet Neo-tree als Overlay (Floating)
             {
                 "<C-b>",
-                function()
-                    require("neo-tree.command").execute({
-                        source = "filesystem",
-                        position = "float",
-                        toggle = true,
-                    })
-                end,
+                "<cmd>Neotree<cr>",
                 desc = "Neo-Tree Floating File Viewer",
             },
         },
