@@ -19,3 +19,20 @@ vim.diagnostic.config({ -- here we configure how neovim shall handle the diagnos
         source = "always",
     },
 })
+
+vim.keymap.set("n", "<leader>dt", function()
+    local config = vim.diagnostic.config()
+
+    local enabled = config.virtual_lines ~= false
+
+    vim.diagnostic.config({
+        virtual_text = not enabled,
+        virtual_lines = not enabled and {
+            only_current_line = true,
+        } or false,
+        signs = not enabled,
+        underline = not enabled,
+    })
+
+    print("Diagnostics: " .. (enabled and "Off" or "On"))
+end, { desc = "Toggle diagnostics display" })
