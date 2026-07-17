@@ -3,6 +3,7 @@ require("config.lazy") -- TODO: move also to core.lazy
 require("core.lsp")
 require("config.keymaps")
 require("config.autocmds")
+require("filetype")
 
 -- Needs to be set after the colosheme was loaded or set it directly
 -- in the colosheme
